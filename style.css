@@ -1,0 +1,42 @@
+body{
+  font-family: Arial;
+  background: #121212;
+  color: white;
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+}
+
+button{
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.song{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin: 10px auto;
+  background: #1f1f1f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.song img{
+  width: 100px;
+  border-radius: 5px;
+}
+
+.player{
+  margin-top: 30px;
+}
